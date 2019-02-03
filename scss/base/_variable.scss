@@ -1,0 +1,22 @@
+// fonts
+
+$heading-font: 'Alfa Slab One', cursive;
+$body-font:  'Poppins', sans-serif;
+
+
+// colors
+
+$black: #000;
+$white: #fff;
+$gray: rgb(128, 128, 128);
+
+//media queries
+$tab: "only screen and (max-width : 780px)";
+$mobile: "only screen and (max-width : 500px)";
+
+// grid
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(280px , 1fr));
+    grid-gap: 2rem;
+}

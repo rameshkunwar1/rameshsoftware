@@ -1,0 +1,21 @@
+@mixin contact-button {
+    color: white;
+    background: blue;
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    font-weight: bold;
+}
+@mixin contact-hover{
+    background: black;
+    
+}
+@mixin transition {
+    transition: .5s ease-in-out;
+}
+@mixin sign-in {
+    color: white;
+    background: blue;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
